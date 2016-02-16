@@ -182,26 +182,26 @@ public class FramePrincipal extends javax.swing.JFrame {
                                              {"732","14","GERIATRICO"}}} ;
 
      public String simulacionMeses[][][]  = {{
-                                            {"04 - 2015","05 - 2015","06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015"},
-                                            {"06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015"},
-                                            {"06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015","09 - 2026","10 - 2026","11 - 2026","12 - 2026"},
-                                            {"06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015"},
-                                            {"06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015","10 - 2026","11 - 2026","12 - 2026"},
-                                            {"06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015"}}, 
+                                            {"04 - 2015","05 - 2015","06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015","01 - 2016"},
+                                            {"06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015","01 - 2016"},
+                                            {"01 - 2015","02 - 2015","03 - 2015","04 - 2015","05 - 2015","06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015","01 - 2016","09 - 2026","10 - 2026","11 - 2026","12 - 2026","1 - 2027"},
+                                            {"06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015","01 - 2016"},
+                                            {"06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015","01 - 2016","10 - 2026","11 - 2026","12 - 2026","1 - 2027"},
+                                            {"06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015","01 - 2016"}}, 
                                             {
-                                            {"01 - 2015","02 - 2015","03 - 2015","04 - 2015","05 - 2015","06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015"}},    
+                                            {"01 - 2015","02 - 2015","03 - 2015","04 - 2015","05 - 2015","06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015","01 - 2016"}},    
                                             {
-                                            {"07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015","10 - 2026","11 - 2026","12 - 2026"}},      
+                                            {"07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015","01 - 2016","10 - 2026","11 - 2026","12 - 2026","1 - 2027"}},      
                                             {
-                                            {"01 - 2015","02 - 2015","03 - 2015","04 - 2015","05 - 2015","06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015"}},                                                                                  
+                                            {"01 - 2015","02 - 2015","03 - 2015","04 - 2015","05 - 2015","06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015","01 - 2016"}},                                                                                  
                                             {
-                                            {"06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015"}}} ; 
+                                            {"06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015","01 - 2016"}}} ; 
   
      
-     public String simulacionTablasOmie[] = {"01 - 2015","02 - 2015","03 - 2015","04 - 2015","05 - 2015","06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015"} ;
+     public String simulacionTablasOmie[] = {"01 - 2015","02 - 2015","03 - 2015","04 - 2015","05 - 2015","06 - 2015","07 - 2015","08 - 2015","09 - 2015","10 - 2015","11 - 2015","12 - 2015","01 - 2016","02 - 2016","03 - 2016","04 - 2016","05 - 2016","06 - 2016","07 - 2016","08 - 2016","09 - 2016","10 - 2016","11 - 2016","12 - 2016"} ;
      
-     public String tablasOmieFechas[][] = {{"1","2015"},{"2","2015"},{"3","2015"},{"4","2015"},{"5","2015"},{"6","2015"},{"7","2015"},{"8","2015"},{"9","2015"},{"10","2015"},{"11","2015"},{"12","2015"}} ;
-     public String tablasDatosEnergia[][] = {{"1","2015"},{"2","2015"},{"3","2015"},{"4","2015"},{"5","2015"},{"6","2015"},{"7","2015"},{"8","2015"},{"9","2015"},{"10","2015"},{"11","2015"},{"12","2015"}} ;
+     public String tablasOmieFechas[][] = {{"1","2015"},{"2","2015"},{"3","2015"},{"4","2015"},{"5","2015"},{"6","2015"},{"7","2015"},{"8","2015"},{"9","2015"},{"10","2015"},{"11","2015"},{"12","2015"},{"1","2016"},{"2","2016"},{"3","2016"},{"4","2016"},{"5","2016"},{"6","2016"},{"7","2016"},{"8","2016"},{"9","2016"},{"10","2016"},{"11","2016"},{"12","2016"}} ;
+     public String tablasDatosEnergia[][] = {{"1","2015"},{"2","2015"},{"3","2015"},{"4","2015"},{"5","2015"},{"6","2015"},{"7","2015"},{"8","2015"},{"9","2015"},{"10","2015"},{"11","2015"},{"12","2015"},{"1","2016"},{"2","2016"},{"3","2016"},{"4","2016"},{"5","2016"},{"6","2016"},{"7","2016"},{"8","2016"},{"9","2016"},{"10","2016"},{"11","2016"},{"12","2016"}} ;
      
      public String tablasDatosPotencia[][] = {  {"5","727","2015-06-01","2015-06-30"},
                                                 {"5","731","2015-06-01","2015-06-30"},
@@ -221,6 +221,7 @@ public class FramePrincipal extends javax.swing.JFrame {
                                                  {"5","727","10","C.D. ALMERIA","10","2015","2015-10-01","2015-10-31","01-10-2015","31-10-2015"},
                                                  {"5","727","10","C.D. ALMERIA","11","2015","2015-11-01","2015-11-30","01-11-2015","30-11-2015"},
                                                  {"5","727","10","C.D. ALMERIA","12","2015","2015-12-01","2015-12-31","01-12-2015","31-12-2015"},
+                                                 {"5","727","10","C.D. ALMERIA","1","2016","2016-01-01","2016-01-31","01-01-2016","31-01-2016"},
                                                  {"5","728","10","C.D. ALZIRA","6","2015","2015-06-01","2015-06-30","01-06-2015","30-06-2015"},
                                                  {"5","728","10","C.D. ALZIRA","7","2015","2015-07-01","2015-07-31","01-07-2015","31-07-2015"},
                                                  {"5","728","10","C.D. ALZIRA","8","2015","2015-08-01","2015-08-31","01-08-2015","31-08-2015"},
@@ -228,6 +229,12 @@ public class FramePrincipal extends javax.swing.JFrame {
                                                  {"5","728","10","C.D. ALZIRA","10","2015","2015-10-01","2015-10-31","01-10-2015","31-10-2015"},
                                                  {"5","728","10","C.D. ALZIRA","11","2015","2015-11-01","2015-11-30","01-11-2015","30-11-2015"},
                                                  {"5","728","10","C.D. ALZIRA","12","2015","2015-12-01","2015-12-31","01-12-2015","31-12-2015"},
+                                                  {"5","728","10","C.D. ALZIRA","1","2016","2016-01-01","2016-01-31","01-01-2016","31-01-2016"},
+                                                 {"5","729","14","C.D. JEREZ DE LA FRONTERA","1","2015","2015-01-01","2015-06-30","01-01-2015","30-01-2015"},
+                                                 {"5","729","14","C.D. JEREZ DE LA FRONTERA","2","2015","2015-02-01","2015-06-30","01-02-2015","30-02-2015"},
+                                                 {"5","729","14","C.D. JEREZ DE LA FRONTERA","3","2015","2015-03-01","2015-06-30","01-03-2015","30-03-2015"},
+                                                 {"5","729","14","C.D. JEREZ DE LA FRONTERA","4","2015","2015-04-01","2015-06-30","01-04-2015","30-04-2015"},
+                                                 {"5","729","14","C.D. JEREZ DE LA FRONTERA","5","2015","2015-05-01","2015-06-30","01-05-2015","30-05-2015"},
                                                  {"5","729","14","C.D. JEREZ DE LA FRONTERA","6","2015","2015-06-01","2015-06-30","01-06-2015","30-06-2015"},
                                                  {"5","729","14","C.D. JEREZ DE LA FRONTERA","7","2015","2015-07-01","2015-07-31","01-07-2015","31-07-2015"},
                                                  {"5","729","14","C.D. JEREZ DE LA FRONTERA","8","2015","2015-08-01","2015-08-31","01-08-2015","31-08-2015"},
@@ -235,10 +242,12 @@ public class FramePrincipal extends javax.swing.JFrame {
                                                  {"5","729","14","C.D. JEREZ DE LA FRONTERA","10","2015","2015-10-01","2015-10-31","01-10-2015","31-10-2015"},
                                                  {"5","729","14","C.D. JEREZ DE LA FRONTERA","11","2015","2015-11-01","2015-11-30","01-11-2015","30-11-2015"},
                                                  {"5","729","14","C.D. JEREZ DE LA FRONTERA","12","2015","2015-12-01","2015-12-31","01-12-2015","31-12-2015"},
+                                                 {"5","729","14","C.D. JEREZ DE LA FRONTERA","1","2016","2016-01-01","2016-01-31","01-01-2016","31-01-2016"},
                                                  {"5","729","14","C.D. JEREZ DE LA FRONTERA","9","2026","2026-09-01","2026-09-30","01-09-2026","30-09-2026"},  
                                                  {"5","729","14","C.D. JEREZ DE LA FRONTERA","10","2026","2026-10-01","2026-10-31","01-10-2026","31-10-2026"},
                                                  {"5","729","14","C.D. JEREZ DE LA FRONTERA","11","2026","2026-11-01","2026-11-30","01-11-2026","30-11-2026"},
                                                  {"5","729","14","C.D. JEREZ DE LA FRONTERA","12","2026","2026-12-01","2026-12-31","01-12-2026","31-12-2026"},
+                                                 {"5","729","14","C.D. JEREZ DE LA FRONTERA","1","2027","2027-01-01","2027-01-31","01-01-2027","31-01-2027"},
                                                  {"5","730","10","C.D. PUERTO SANTA MARIA","6","2015","2015-06-01","2015-06-30","01-06-2015","30-06-2015"},
                                                  {"5","730","10","C.D. PUERTO SANTA MARIA","7","2015","2015-07-01","2015-07-31","01-07-2015","31-07-2015"},
                                                  {"5","730","10","C.D. PUERTO SANTA MARIA","8","2015","2015-08-01","2015-08-31","01-08-2015","31-08-2015"},
@@ -246,6 +255,7 @@ public class FramePrincipal extends javax.swing.JFrame {
                                                  {"5","730","10","C.D. PUERTO SANTA MARIA","10","2015","2015-10-01","2015-10-31","01-10-2015","31-10-2015"},
                                                  {"5","730","10","C.D. PUERTO SANTA MARIA","11","2015","2015-11-01","2015-11-30","01-11-2015","30-11-2015"},
                                                  {"5","730","10","C.D. PUERTO SANTA MARIA","12","2015","2015-12-01","2015-12-31","01-12-2015","31-12-2015"},
+                                                 {"5","730","10","C.D. PUERTO SANTA MARIA","1","2016","2016-01-01","2016-01-31","01-01-2016","31-01-2016"},
                                                  {"5","731","14","C.D. VALENCIA","6","2015","2015-06-01","2015-06-30","01-06-2015","30-06-2015"},
                                                  {"5","731","14","C.D. VALENCIA","7","2015","2015-07-01","2015-07-31","01-07-2015","31-07-2015"},
                                                  {"5","731","14","C.D. VALENCIA","8","2015","2015-08-01","2015-08-31","01-08-2015","31-08-2015"},
@@ -253,9 +263,11 @@ public class FramePrincipal extends javax.swing.JFrame {
                                                  {"5","731","14","C.D. VALENCIA","10","2015","2015-10-01","2015-10-31","01-10-2015","31-10-2015"},
                                                  {"5","731","14","C.D. VALENCIA","11","2015","2015-11-01","2015-11-30","01-11-2015","30-11-2015"},
                                                  {"5","731","14","C.D. VALENCIA","12","2015","2015-12-01","2015-12-31","01-12-2015","31-12-2015"},
+                                                 {"5","731","14","C.D. VALENCIA","1","2016","2016-01-01","2016-01-31","01-01-2016","31-01-2016"},
                                                  {"5","731","14","C.D. VALENCIA","10","2026","2026-10-01","2026-10-31","01-10-2026","31-10-2026"},
                                                  {"5","731","14","C.D. VALENCIA","11","2026","2026-11-01","2026-11-30","01-11-2026","30-11-2026"},
                                                  {"5","731","14","C.D. VALENCIA","12","2026","2026-12-01","2026-12-31","01-12-2026","31-12-2026"},
+                                                 {"5","731","14","C.D. VALENCIA","1","2027","2027-01-01","2027-01-31","01-01-2027","01-01-2027"},
                                                  {"5","761","6","C.D.WELLNESS NUEVO MESTALLA","6","2015","2015-06-01","2015-06-30","01-06-2015","30-06-2015"},
                                                  {"5","761","6","C.D.WELLNESS NUEVO MESTALLA","7","2015","2015-07-01","2015-07-31","01-07-2015","31-07-2015"},
                                                  {"5","761","6","C.D.WELLNESS NUEVO MESTALLA","8","2015","2015-08-01","2015-08-31","01-08-2015","31-08-2015"},
@@ -263,6 +275,7 @@ public class FramePrincipal extends javax.swing.JFrame {
                                                  {"5","761","6","C.D.WELLNESS NUEVO MESTALLA","10","2015","2015-10-01","2015-10-31","01-10-2015","31-10-2015"},
                                                  {"5","761","6","C.D.WELLNESS NUEVO MESTALLA","11","2015","2015-11-01","2015-11-31","01-11-2015","30-11-2015"},
                                                  {"5","761","6","C.D.WELLNESS NUEVO MESTALLA","12","2015","2015-12-01","2015-12-31","01-12-2015","31-12-2015"},
+                                                 {"5","761","6","C.D.WELLNESS NUEVO MESTALLA","1","2016","2016-01-01","2016-01-31","01-01-2016","31-01-2016"},
                                                  {"12","747","14","COMUNIDAD REGANTES MONFORTE","1","2015","2015-01-01","2015-01-31","01-01-2015","31-01-2015"},
                                                  {"12","747","14","COMUNIDAD REGANTES MONFORTE","2","2015","2015-02-01","2015-02-28","01-02-2015","28-02-2015"},
                                                  {"12","747","14","COMUNIDAD REGANTES MONFORTE","3","2015","2015-03-01","2015-03-31","01-03-2015","31-03-2015"},
@@ -275,15 +288,18 @@ public class FramePrincipal extends javax.swing.JFrame {
                                                  {"12","747","14","COMUNIDAD REGANTES MONFORTE","10","2015","2015-10-01","2015-10-31","01-10-2015","31-10-2015"},
                                                  {"12","747","14","COMUNIDAD REGANTES MONFORTE","11","2015","2015-11-01","2015-11-31","01-11-2015","30-11-2015"},
                                                  {"12","747","14","COMUNIDAD REGANTES MONFORTE","12","2015","2015-12-01","2015-12-31","01-12-2015","31-12-2015"},
+                                                  {"12","747","14","COMUNIDAD REGANTES MONFORTE","1","2016","2016-01-01","2016-01-31","01-01-2016","31-01-2016"},
                                                  {"14","749","14","FORUM","7","2015","2015-07-01","2015-07-31","01-07-2015","31-07-2015"},
                                                  {"14","749","14","FORUM","8","2015","2015-08-01","2015-08-31","01-08-2015","31-08-2015"},
                                                  {"14","749","14","FORUM","9","2015","2015-09-01","2015-09-30","01-09-2015","30-09-2015"},
                                                  {"14","749","14","FORUM","10","2015","2015-10-01","2015-10-31","01-10-2015","31-10-2015"},
                                                  {"14","749","14","FORUM","11","2015","2015-11-01","2015-11-30","01-11-2015","30-11-2015"},
                                                  {"14","749","14","FORUM","12","2015","2015-12-01","2015-12-31","01-12-2015","31-12-2015"},
+                                                 {"14","749","14","FORUM","1","2016","2016-01-01","2016-01-31","01-01-2016","31-01-2016"},
                                                  {"14","749","14","FORUM","10","2026","2026-10-01","2026-10-31","01-10-2026","31-10-2026"},
                                                  {"14","749","14","FORUM","11","2026","2026-11-01","2026-11-30","01-11-2026","30-11-2026"},
                                                  {"14","749","14","FORUM","12","2026","2026-12-01","2026-12-31","01-12-2026","31-12-2026"},
+                                                 {"14","749","14","FORUM","1","2027","2027-01-01","2027-01-31","01-01-2027","31-01-2027"},
                                                  {"15","750","14","GH ELETROTÉCNIA","1","2015","2015-01-01","2015-01-31","01-01-2015","31-01-2015"},
                                                  {"15","750","14","GH ELETROTÉCNIA","2","2015","2015-02-01","2015-02-28","01-02-2015","28-02-2015"},
                                                  {"15","750","14","GH ELETROTÉCNIA","3","2015","2015-03-01","2015-03-31","01-03-2015","31-03-2015"},
@@ -295,14 +311,16 @@ public class FramePrincipal extends javax.swing.JFrame {
                                                  {"15","750","14","GH ELETROTÉCNIA","9","2015","2015-09-01","2015-09-31","01-09-2015","30-09-2015"},
                                                  {"15","750","14","GH ELETROTÉCNIA","10","2015","2015-10-01","2015-10-31","01-10-2015","31-10-2015"},
                                                  {"15","750","14","GH ELETROTÉCNIA","11","2015","2015-11-01","2015-11-31","01-11-2015","30-11-2015"},
-                                                 {"15","750","14","GH ELETROTÉCNIA","12","2015","2015-12-01","2015-12-31","01-12-2015","31-12-2015"},                                                
+                                                 {"15","750","14","GH ELETROTÉCNIA","12","2015","2015-12-01","2015-12-31","01-12-2015","31-12-2015"},
+                                                 {"15","750","14","GH ELETROTÉCNIA","1","2016","2016-01-01","2016-01-31","01-01-2016","31-01-2016"},  
                                                  {"6","732","10","GERIATRICO","6","2015","2015-06-01","2015-06-30","01-06-2015","30-06-2015"},
                                                  {"6","732","10","GERIATRICO","7","2015","2015-07-01","2015-07-31","01-07-2015","31-07-2015"},
                                                  {"6","732","10","GERIATRICO","8","2015","2015-08-01","2015-08-31","01-08-2015","31-08-2015"},
                                                  {"6","732","10","GERIATRICO","9","2015","2015-09-01","2015-09-30","01-09-2015","30-09-2015"},
                                                  {"6","732","10","GERIATRICO","10","2015","2015-10-01","2015-10-31","01-10-2015","31-10-2015"},
                                                  {"6","732","10","GERIATRICO","11","2015","2015-11-01","2015-11-30","01-11-2015","30-11-2015"},
-                                                 {"6","732","10","GERIATRICO","12","2015","2015-12-01","2015-12-31","01-12-2015","31-12-2015"}};
+                                                 {"6","732","10","GERIATRICO","12","2015","2015-12-01","2015-12-31","01-12-2015","31-12-2015"},
+                                                 {"6","732","10","GERIATRICO","1","2016","2016-01-01","2016-01-31","01-01-2016","31-01-2016"} };
      
      public  DefaultTableModel model3,model4,model5,model6,model7;
      
@@ -989,6 +1007,7 @@ public class FramePrincipal extends javax.swing.JFrame {
         jTextField144 = new javax.swing.JTextField();
         jTextField145 = new javax.swing.JTextField();
         jTextField146 = new javax.swing.JTextField();
+        jCheckBox12 = new javax.swing.JCheckBox();
         jPanel59 = new javax.swing.JPanel();
         jPanel63 = new javax.swing.JPanel();
         jLabel203 = new javax.swing.JLabel();
@@ -1035,6 +1054,7 @@ public class FramePrincipal extends javax.swing.JFrame {
         jTextField275 = new javax.swing.JTextField();
         jCheckBox8 = new javax.swing.JCheckBox();
         jButton24 = new javax.swing.JButton();
+        jCheckBox11 = new javax.swing.JCheckBox();
         jPanel66 = new javax.swing.JPanel();
         jLabel216 = new javax.swing.JLabel();
         jLabel217 = new javax.swing.JLabel();
@@ -1074,6 +1094,7 @@ public class FramePrincipal extends javax.swing.JFrame {
         jTextField221 = new javax.swing.JTextField();
         jTextField222 = new javax.swing.JTextField();
         jButton25 = new javax.swing.JButton();
+        jCheckBox10 = new javax.swing.JCheckBox();
         jPanel70 = new javax.swing.JPanel();
         jLabel231 = new javax.swing.JLabel();
         jLabel232 = new javax.swing.JLabel();
@@ -2953,10 +2974,10 @@ public class FramePrincipal extends javax.swing.JFrame {
         jTextField12.setBackground(new java.awt.Color(204, 255, 204));
         jTextField12.setText("0");
         jTextField12.addInputMethodListener(new java.awt.event.InputMethodListener() {
-            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
-            }
             public void inputMethodTextChanged(java.awt.event.InputMethodEvent evt) {
                 jTextField12InputMethodTextChanged(evt);
+            }
+            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
             }
         });
         jTextField12.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -3388,10 +3409,10 @@ public class FramePrincipal extends javax.swing.JFrame {
         jTextField246.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         jTextField246.setText("0");
         jTextField246.addInputMethodListener(new java.awt.event.InputMethodListener() {
-            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
-            }
             public void inputMethodTextChanged(java.awt.event.InputMethodEvent evt) {
                 jTextField246InputMethodTextChanged(evt);
+            }
+            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
             }
         });
         jTextField246.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -3433,10 +3454,10 @@ public class FramePrincipal extends javax.swing.JFrame {
         jTextField249.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         jTextField249.setText("0");
         jTextField249.addInputMethodListener(new java.awt.event.InputMethodListener() {
-            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
-            }
             public void inputMethodTextChanged(java.awt.event.InputMethodEvent evt) {
                 jTextField249InputMethodTextChanged(evt);
+            }
+            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
             }
         });
         jTextField249.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -3484,10 +3505,10 @@ public class FramePrincipal extends javax.swing.JFrame {
         jTextField252.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         jTextField252.setText("0");
         jTextField252.addInputMethodListener(new java.awt.event.InputMethodListener() {
-            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
-            }
             public void inputMethodTextChanged(java.awt.event.InputMethodEvent evt) {
                 jTextField252InputMethodTextChanged(evt);
+            }
+            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
             }
         });
         jTextField252.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -3523,10 +3544,10 @@ public class FramePrincipal extends javax.swing.JFrame {
         jTextField255.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         jTextField255.setText("0");
         jTextField255.addInputMethodListener(new java.awt.event.InputMethodListener() {
-            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
-            }
             public void inputMethodTextChanged(java.awt.event.InputMethodEvent evt) {
                 jTextField255InputMethodTextChanged(evt);
+            }
+            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
             }
         });
         jTextField255.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -3562,10 +3583,10 @@ public class FramePrincipal extends javax.swing.JFrame {
         jTextField258.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         jTextField258.setText("0");
         jTextField258.addInputMethodListener(new java.awt.event.InputMethodListener() {
-            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
-            }
             public void inputMethodTextChanged(java.awt.event.InputMethodEvent evt) {
                 jTextField258InputMethodTextChanged(evt);
+            }
+            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
             }
         });
         jTextField258.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -3601,10 +3622,10 @@ public class FramePrincipal extends javax.swing.JFrame {
         jTextField261.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         jTextField261.setText("0");
         jTextField261.addInputMethodListener(new java.awt.event.InputMethodListener() {
-            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
-            }
             public void inputMethodTextChanged(java.awt.event.InputMethodEvent evt) {
                 jTextField261InputMethodTextChanged(evt);
+            }
+            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
             }
         });
         jTextField261.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -4445,7 +4466,7 @@ public class FramePrincipal extends javax.swing.JFrame {
         jLabel85.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel85.setText("V.O.R.E.");
 
-        jLabel86.setText("V 1.997");
+        jLabel86.setText("V 1.9991");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -6112,6 +6133,8 @@ public class FramePrincipal extends javax.swing.JFrame {
                 .addContainerGap(16, Short.MAX_VALUE))
         );
 
+        jCheckBox12.setText("SIMULAR CAMBIO A 3.1");
+
         javax.swing.GroupLayout jPanel56Layout = new javax.swing.GroupLayout(jPanel56);
         jPanel56.setLayout(jPanel56Layout);
         jPanel56Layout.setHorizontalGroup(
@@ -6133,6 +6156,10 @@ public class FramePrincipal extends javax.swing.JFrame {
                 .addGroup(jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel56Layout.createSequentialGroup()
                         .addGroup(jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel56Layout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addComponent(jTextField147, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(8, 8, 8))
                             .addGroup(jPanel56Layout.createSequentialGroup()
                                 .addGroup(jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                     .addComponent(jTextField149, javax.swing.GroupLayout.Alignment.LEADING)
@@ -6140,12 +6167,8 @@ public class FramePrincipal extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jTextField150)
-                                    .addComponent(jTextField135)))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel56Layout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(jTextField147, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(8, 8, 8)))
-                        .addGroup(jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jTextField135))))
+                        .addGroup(jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(jPanel56Layout.createSequentialGroup()
                                 .addGap(10, 10, 10)
                                 .addComponent(jTextField151, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -6155,15 +6178,12 @@ public class FramePrincipal extends javax.swing.JFrame {
                                     .addComponent(jTextField137, javax.swing.GroupLayout.Alignment.TRAILING))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel56Layout.createSequentialGroup()
-                                        .addGroup(jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jTextField153, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(jTextField138, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                            .addComponent(jTextField139, javax.swing.GroupLayout.DEFAULT_SIZE, 80, Short.MAX_VALUE)
-                                            .addComponent(jTextField154)))
-                                    .addComponent(jButton21, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(jTextField153, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jTextField138, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jTextField139, javax.swing.GroupLayout.DEFAULT_SIZE, 80, Short.MAX_VALUE)
+                                    .addComponent(jTextField154)))
                             .addGroup(jPanel56Layout.createSequentialGroup()
                                 .addGap(22, 22, 22)
                                 .addGroup(jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -6197,7 +6217,11 @@ public class FramePrincipal extends javax.swing.JFrame {
                             .addGroup(jPanel56Layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(jLabel192, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(29, 29, 29)))))
+                                .addGap(29, 29, 29))))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel56Layout.createSequentialGroup()
+                        .addComponent(jCheckBox12, javax.swing.GroupLayout.PREFERRED_SIZE, 268, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(136, 136, 136))
             .addGroup(jPanel56Layout.createSequentialGroup()
                 .addContainerGap()
@@ -6252,12 +6276,13 @@ public class FramePrincipal extends javax.swing.JFrame {
                 .addGroup(jPanel56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jTextField131, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel183)
-                    .addComponent(jButton21))
+                    .addComponent(jButton21)
+                    .addComponent(jCheckBox12))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel62, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel61, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(59, Short.MAX_VALUE))
         );
 
         jTabbedPane10.addTab("TARIFAS 6.1 P", jPanel56);
@@ -6497,6 +6522,8 @@ public class FramePrincipal extends javax.swing.JFrame {
             }
         });
 
+        jCheckBox11.setText("FORZAR CÁLCULO A 3.0");
+
         javax.swing.GroupLayout jPanel64Layout = new javax.swing.GroupLayout(jPanel64);
         jPanel64.setLayout(jPanel64Layout);
         jPanel64Layout.setHorizontalGroup(
@@ -6536,11 +6563,13 @@ public class FramePrincipal extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel64Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jTextField165, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextField190, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                    .addComponent(jTextField190, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGap(18, 18, 18)
+                        .addComponent(jCheckBox11, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel64Layout.createSequentialGroup()
                         .addGap(294, 294, 294)
                         .addComponent(jButton24, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(159, Short.MAX_VALUE))
             .addComponent(jPanel65, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel64Layout.setVerticalGroup(
@@ -6556,7 +6585,8 @@ public class FramePrincipal extends javax.swing.JFrame {
                     .addComponent(jLabel207)
                     .addComponent(jTextField187, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextField166, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField165, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextField165, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jCheckBox11))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel64Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jTextField163, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -6806,6 +6836,8 @@ public class FramePrincipal extends javax.swing.JFrame {
             }
         });
 
+        jCheckBox10.setText("SIMULAR CAMBIO A 6.1 A");
+
         javax.swing.GroupLayout jPanel69Layout = new javax.swing.GroupLayout(jPanel69);
         jPanel69.setLayout(jPanel69Layout);
         jPanel69Layout.setHorizontalGroup(
@@ -6845,11 +6877,13 @@ public class FramePrincipal extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel69Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jTextField217, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextField222, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                    .addComponent(jTextField222, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGap(18, 18, 18)
+                        .addComponent(jCheckBox10, javax.swing.GroupLayout.PREFERRED_SIZE, 233, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel69Layout.createSequentialGroup()
                         .addGap(294, 294, 294)
                         .addComponent(jButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(261, Short.MAX_VALUE))
+                .addContainerGap(165, Short.MAX_VALUE))
         );
         jPanel69Layout.setVerticalGroup(
             jPanel69Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -6864,7 +6898,8 @@ public class FramePrincipal extends javax.swing.JFrame {
                     .addComponent(jLabel225)
                     .addComponent(jTextField219, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextField218, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField217, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextField217, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jCheckBox10))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel69Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jTextField215, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -8148,6 +8183,9 @@ public class FramePrincipal extends javax.swing.JFrame {
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JCheckBox jCheckBox1;
+    private javax.swing.JCheckBox jCheckBox10;
+    private javax.swing.JCheckBox jCheckBox11;
+    private javax.swing.JCheckBox jCheckBox12;
     private javax.swing.JCheckBox jCheckBox2;
     private javax.swing.JCheckBox jCheckBox3;
     private javax.swing.JCheckBox jCheckBox4;
@@ -11107,6 +11145,106 @@ public class FramePrincipal extends javax.swing.JFrame {
          this.sMensajes = this.sMensajes + "Ahorro acumulado total = \n"+formatoImporte.format(ahorro_total) +"\n" ;
          this.sMensajes = this.sMensajes + "Porcentaje de ahorro = \n"+formatoPorcentaje.format(porcentaje) +"\n" ;
      }
+       // .......................................................................        
+      // .......................................................................................................................................  
+     // .....................................           CALCULO DE AHORRO     DE TARIFA 2.1A  a TARIFA 2.1ADH
+            
+     // .......................................................................
+     if ( this.tipo_Act == 4 && this.tipo_Sim== 3) {
+         
+         eEP1 = Double.parseDouble(energiaP1.getText());                                                    // Energía consumida en P1
+         eEP2 = Double.parseDouble(energiaP2.getText());                                                    // Energía consumida en P2
+         pPC1 = Double.parseDouble(jTextField19.getText());                                                 // Potencia contratada en P1
+          
+         pEP1  = Double.parseDouble(lCondicionesActuales[indice][14]) ;                                     // Precio en Energía en P1 con contrato actual
+         pEP1s = Double.parseDouble(lCondicionesSimulacion[indice][14]) ;                                   // Precio en Energía en P1 Simulado (contrato anterior)
+         pEP2  = Double.parseDouble(lCondicionesActuales[indice][15]) ;                                     // Precio en Energía en P2 con contrato actual
+      
+         
+         pPP1  = Double.parseDouble(lCondicionesActuales[indice][8]) ;                                      // Precio en Potencia en P1 Actual
+         pPP1s = Double.parseDouble(lCondicionesSimulacion[indice][8]) ;                                    // Precio en Potencia en P1 Simulado
+                                            
+          // ..................................................................                              POTENCIA A FACTURAR
+         
+         P1M = Double.parseDouble(jTextField77.getText());                                                 // Potencia de maximetro P1
+         P2M = Double.parseDouble(jTextField78.getText());                                                 // Potencia de maximetro P2
+        
+         
+         
+         aEP1 = (eEP1 * (pEP1s-pEP1)) + ( (pEP1s-eEP2) * (pEP2)) ;                                            // Ahorro en el consumo de energía
+         aPP1 = (dias * (pPP1s-pPP1)) ;                                                                                                // Ahorro en potencia contratada
+         
+         ahorro = impuesto_electrico * (aEP1 + aPP1) ;                                                      // Ahorro total Energia + Potencia
+         
+         ahorro_total = ahorro_total + ahorro ;                                                             // Ahorro acumulado total
+         
+         coste_actual   = impuesto_electrico * ((eEP1 * pEP1) + (dias * pPP1 ) + (eEP2 * pEP2)  ) ;         // Coste con tarifa actual
+         
+         coste_simulado = impuesto_electrico * ((eEP1 * pEP1s) + (dias * pPP1s ) + (eEP2 * pEP1s)) ;       // Coste con tarifa simulada
+         
+         coste_actual_DI    = impuesto_iva * coste_actual ;                                                 // Coste total de la factura después de impuestos.
+         
+         porcentaje       = 1 - ( coste_actual / coste_simulado ) ;                     // Porcentaje de ahorro
+         // ...................................................................         // CONTROL DE RESULTADO FINAL DE LA FACTURA
+         pBIC    = impuesto_electrico * (coste_actual) + pAlquiler ;                                        // Precio base de factura calculado
+         spBIC   = formatoImporte.format(pBIC);
+         pBIC    =Math.rint(pBIC*100)/100 ;
+         if ( pBIC == pBIF) { 
+              jTextField82.setText(spBIC);
+              jTextField82.setBackground(Color.green);
+              jTextField80.setBackground(new Color(0xCCFFCC)); 
+              jTextField81.setBackground(new Color(0xCCFFCC)); 
+             
+         } else {                                                                       // Error de cálculo. No coinciden
+              jTextField82.setText(spBIC);
+              jTextField82.setBackground(Color.red);     
+              jTextField80.setBackground(Color.orange); 
+              jTextField81.setBackground(Color.orange); 
+         }
+         // ...................................................................
+         sAhorro         = formatoImporte.format(ahorro);
+         sCoste_Actual   = formatoImporte.format(coste_actual);
+         sCoste_Simulado = formatoImporte.format(coste_simulado);
+         sAhorro_Total   = formatoImporte.format(ahorro_total);
+         sPorcentaje      = formatoPorcentaje.format(porcentaje);
+              
+         diasOptimizado  = diasOptimizado + dias ;
+         jTextField40.setText(String.valueOf(diasOptimizado));    
+         
+         jTextField30.setText(sAhorro);
+         jTextField15.setText(sCoste_Actual);
+         jTextField27.setText(sCoste_Simulado);
+         jTextField5.setText(sAhorro_Total);         
+         jTextField9.setText(String.valueOf(dias));
+         jTextField47.setText(sPorcentaje);
+         
+         jTextField41.setText(String.valueOf(coste_actual));           // guardamos en campo oculto coste_actual_AI
+         jTextField42.setText(String.valueOf(coste_actual_DI));        // guardamos en campo oculto coste_actual_DI
+         jTextField43.setText(String.valueOf(ahorro));                 // guardamos en campo oculto ahorro
+         jTextField44.setText(String.valueOf(ahorro_total));           // guardamos en campo oculto ahorro total
+         jTextField45.setText(String.valueOf(coste_simulado));         // guardamos en campo oculto coste_simulado_AI
+         jTextField46.setText(String.valueOf(porcentaje));              // guardamos en campo oculto porcentaje
+         
+         this.sMensajes = FramePrincipal.sMensajes + "............................... DATOS DE PARTIDA................................."+"\n" ;
+         this.sMensajes = this.sMensajes + "Energía consumida en P1 = "+formatoNumero.format(eEP1)+" kWh" +"\n" ;
+         this.sMensajes = this.sMensajes + "Energía consumida en P2 = "+formatoNumero.format(eEP2)+" kWh" +"\n" ;
+         this.sMensajes = this.sMensajes + "Precio en Energía en P1 con contrato actual = "+pEP1+" €/kWh" +"\n" ;
+         this.sMensajes = this.sMensajes + "Precio en Energía en P1 Simulado (contrato anterior) = "+pEP1s+" €/kWh" +"\n \n" ; 
+         this.sMensajes = this.sMensajes + "Precio en Energía en P2 con contrato actual = "+pEP2+" €/kWh" +"\n" ;         
+         this.sMensajes = this.sMensajes + "Impuesto eléctrico = "+impuesto_electrico+"\n \n" ;  
+         this.sMensajes = this.sMensajes + "Precio en Potencia en P1 Actual = "+pPP1+" €/kWh" +"\n" ;
+         this.sMensajes = this.sMensajes + "Precio en Potencia en P1 Simulado = "+pPP1s+" €/kWh" +"\n \n" ;         
+         this.sMensajes = this.sMensajes + "Ahorro acumulado  = "+formatoImporte.format(ahorro_acumulado)+"\n \n" ; 
+         this.sMensajes = this.sMensajes + "............................... CÁLCULOS ................................."+"\n" ;
+         this.sMensajes = this.sMensajes + "Coste con tarifa actual  ->(impuesto_electrico * ((eEP1 * pEP1) + (dias * pPP1 ) + (eEP2 * pEP2)))= \n"+formatoImporte.format(coste_actual) +"\n" ;
+         this.sMensajes = this.sMensajes + "Coste con tarifa simulada -> (impuesto_electrico * ((eEP1 * pEP1s) + (dias * pPP1s ) + (eEP2 * pEP1s)))= \n"+formatoImporte.format(coste_simulado) +"\n" ;
+         this.sMensajes = this.sMensajes + "Coste total de la factura después de impuestos. -> (coste_actual_DI    = impuesto_iva * coste_actual)= \n"+formatoImporte.format(coste_actual_DI) +"\n \n" ;
+         this.sMensajes = this.sMensajes + "Ahorro en el consumo de energía = \n"+formatoImporte.format(aEP1) +"\n" ;
+         this.sMensajes = this.sMensajes + "Ahorro en potencia contratada = \n"+formatoImporte.format(aPP1) +"\n" ;
+         this.sMensajes = this.sMensajes + "Ahorro total Energia + Potencia (con impuesto eléctrico)= \n"+formatoImporte.format(ahorro) +"\n" ;
+         this.sMensajes = this.sMensajes + "Ahorro acumulado total = \n"+formatoImporte.format(ahorro_total) +"\n" ;
+         this.sMensajes = this.sMensajes + "Porcentaje de ahorro = \n"+formatoPorcentaje.format(porcentaje) +"\n" ;
+     }
      // .......................................................................    
      // .......................................................................................................................................  
      // .....................................           CALCULO DE AHORRO     DE TARIFA 2.0A a TARIFA 2.0DHA
@@ -11327,7 +11465,7 @@ public class FramePrincipal extends javax.swing.JFrame {
      }
      // .......................................................................    
      // .......................................................................................................................................  
-     // .....................................           CALCULO DE AHORRO     DE TARIFA 2.1A a TARIFA 2.1DHA
+     // .....................................           CALCULO DE AHORRO     DE TARIFA 2.1A a TARIFA 2.1DHA index
             
      // .......................................................................
       if ( this.tipo_Act == 9 && this.tipo_Sim== 3) {
@@ -11442,7 +11580,7 @@ public class FramePrincipal extends javax.swing.JFrame {
      }
       // .......................................................................    
      // .......................................................................................................................................  
-     // .....................................           CALCULO DE AHORRO     DE TARIFA 2.1A a TARIFA 2.0DHA o  DE TARIFA 2.0A a TARIFA 2.1DHA
+     // .....................................           CALCULO DE AHORRO     DE TARIFA 2.1A a TARIFA 2.0DHA index  o  DE TARIFA 2.0A a TARIFA 2.1DHA index
              
      // .......................................................................
       if ( (this.tipo_Act == 8 && this.tipo_Sim== 3) || (this.tipo_Act == 9 && this.tipo_Sim== 1)) {
@@ -11819,11 +11957,11 @@ public class FramePrincipal extends javax.swing.JFrame {
      }
       // .......................................................................    
      // .......................................................................................................................................  
-     // .....................................           CALCULO DE AHORRO     DE TARIFA 2.1DHA a TARIFA 2.0DHA INDEXADO
+     // .....................................           CALCULO DE AHORRO     DE TARIFA 2.1DHA  a TARIFA 2.0DHA INDEXADO  o   DE TARIFA 2.1DHA  a TARIFA 2.1DHA INDEXADO  o   DE TARIFA 2.0DHA  a TARIFA 2.0DHA INDEXADO
             
      // .......................................................................
-      if ( this.tipo_Act == 8 && this.tipo_Sim== 4) {
-         System.out.println("ESTAMOS EN  CALCULO DE AHORRO     DE TARIFA 2.0DHA Indexado a TARIFA 2.0A") ;
+      if ((this.tipo_Act == 8 && this.tipo_Sim== 4) || (this.tipo_Act == 9 && this.tipo_Sim== 4) || (this.tipo_Act == 8 && this.tipo_Sim== 2)) {
+         System.out.println("ESTAMOS EN  CALCULO DE AHORRO      DE TARIFA 2.1DHA  a TARIFA 2.0DHA INDEXADO  o   DE TARIFA 2.1DHA  a TARIFA 2.1DHA INDEXADO  o   DE TARIFA 2.0DHA  a TARIFA 2.0DHA INDEXADO") ;
          eEP1 = Double.parseDouble(energiaP1.getText());                                                    // Energía consumida en P1
          eEP2 = Double.parseDouble(energiaP2.getText());                                                    // Energía consumida en P2
         
@@ -13846,9 +13984,6 @@ public class FramePrincipal extends javax.swing.JFrame {
                      sqlStr = "UPDATE t_ahorros_historico SET fUltimCalc=0 WHERE id_punto="+this.id_punto_actual ;
 
                      estadoInsert= misaepDao3.registrarFila(sqlStr);
-                    
-                 // .....................................  
-                
                 
                 // .....................................                                consultamos el último id que se ha asignado
                 
@@ -19639,8 +19774,12 @@ public void leerArchivoExel() throws IOException {
             
             // .......................................................................
             
+             pEnergia = miSimulacion.calcularSubtotalEnergiaP6(this.model4, this.model5, mes, year) ;            // enviamos precios y consumos
+           
             
-            pEnergia = miSimulacion.calcularSubtotalEnergiaP6(this.model4, this.model5, mes, year) ;            // enviamos precios y consumos
+            
+            
+            
             
             psEnergia = formatoImporte.format(pEnergia); jTextField130.setText(psEnergia);
             esEnergia = formatoNumero.format(miSimulacion.eEnergiaTotal); jTextField178.setText(esEnergia);
@@ -19677,11 +19816,18 @@ public void leerArchivoExel() throws IOException {
             PC6 = jTextField171.getText();    PC6.trim();  miSimulacion.PC6 = PC6 ;              // Potencia contratada en P6 
             
             // .......................................................................
-            
-            pPotencia = miSimulacion.calcularSubtotalPotenciaP6(this.model6, mes, year) ;            // enviamos potencias de maximetro
+            if (!jCheckBox12.isSelected() ){
+                    pPotencia = miSimulacion.calcularSubtotalPotenciaP6(this.model6, mes, year) ;                  // enviamos potencias de maximetro
+            } else {
+                   JOptionPane.showMessageDialog(null,
+                                                     "\nVas a simular los periodos cuartohorarios en tarifa 3.1.",
+                                                     "ATENCION!!!",JOptionPane.WARNING_MESSAGE);    
+               
+                    pPotencia = miSimulacion.calcularSubtotalPotenciaP31(this.model6, mes, year,1) ;            // enviamos potencias de maximetro para simular
+            }
             
             psPotencia = formatoImporte.format(pPotencia); jTextField132.setText(psPotencia);
-            
+              
             socsP1= formatoImporte.format(miSimulacion.ocsP1);  jTextField155.setText(socsP1);
             socsP2= formatoImporte.format(miSimulacion.ocsP2);  jTextField156.setText(socsP2);
             socsP3= formatoImporte.format(miSimulacion.ocsP3);  jTextField157.setText(socsP3);
@@ -19920,8 +20066,11 @@ public void leerArchivoExel() throws IOException {
             
             // .......................................................................
             
-            pPotencia = miSimulacion.calcularSubtotalPotenciaP31(this.model6, mes, year,1) ;            // enviamos potencias de maximetro
-            
+            if (!jCheckBox10.isSelected() ){
+                         pPotencia = miSimulacion.calcularSubtotalPotenciaP31(this.model6, mes, year,1) ;            // enviamos potencias de maximetro
+            } else  {
+                         pPotencia = miSimulacion.calcularSubtotalPotenciaP6(this.model6, mes, year) ;            // enviamos potencias de maximetro
+            }
             pP1 = formatoNumero.format(Double.valueOf(miSimulacion.pmaxP1)); jTextField230.setText(pP1);
             pP2 = formatoNumero.format(Double.valueOf(miSimulacion.pmaxP2)); jTextField229.setText(pP2);
             pP3 = formatoNumero.format(Double.valueOf(miSimulacion.pmaxP3)); jTextField228.setText(pP3);

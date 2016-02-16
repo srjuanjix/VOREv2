@@ -4078,7 +4078,8 @@ public class saepDao {
             
             String sqlStr ="SELECT dia,eh01,eh02,eh03,eh04,eh05,eh06,eh07,eh08,eh09,eh10,eh11,eh12,eh13,eh14,eh15,eh16,eh17,eh18,eh19,eh20,eh21,eh22,eh23,eh24";
                    sqlStr +=" FROM t_datos_consumos_hr WHERE mes="+mes+" AND year="+year+" AND id_punto="+id_punto+" ORDER BY dia ASC";
-       //      System.out.println("sqlstr ="+sqlStr); 
+     
+                   System.out.println("sqlstr ="+sqlStr); 
             
             try {
 			Statement estatuto = conex.getConnection().createStatement();
